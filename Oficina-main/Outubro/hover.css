@@ -1,0 +1,68 @@
+
+header {
+    height: 60px;
+    width: 100%;
+    background-color: grey;
+}
+main {
+    height: 800px;
+    width: 100%;
+    background-color: rgb(197, 197, 197);
+}
+.testContainerHover {
+    display: flex;
+    justify-content: space-between;
+}
+.lampada {
+    height: 100px;
+    width: 100px;
+    background-color: green;
+}
+.lampada:hover {
+    background-color: red;
+}
+.lam {
+    background-image: url("https://imagens-revista-pro.vivadecora.com.br/uploads/2018/02/lampada-led-esquenta-lampada-incandescente-40w.jpg");
+    height: 100px;
+    width: 100px;
+    background-size: 100% auto;
+}
+.lam:hover {
+    background-image: url("https://img.freepik.com/vetores-gratis/lampada-realista-com-eletricidade_23-2149129410.jpg?t=st=1727880900~exp=1727884500~hmac=9ef496d66d408d66667ab4d1ba47b543770f60f054a483b757788501c7828bd2&w=826");   
+    cursor: pointer;
+}
+.resize {
+    height: 100px;
+    width: 100px;
+    background-color: yellow;
+    transition: width 2s, height 2s;
+}
+.resize:hover {
+    height: 200px;
+    width: 200px;
+    background-color: red;
+}
+.testContainerClick {
+    display: flex;
+    justify-content: space-between;
+}
+.click1 {
+    height: 200px;
+    width: 200px;
+    background-color: rgb(49, 31, 212);
+}
+.click2 {
+    height: 200px;
+    width: 200px;
+    background-color: rgba(160, 214, 32, 0.774);
+}
+.click3 {
+    height: 200px;
+    width: 200px;
+    background-color: rgb(0, 0, 0);
+}
+footer {
+    height: 100px;
+    width: 100%;
+    background-color: rgb(83, 83, 83);
+}
